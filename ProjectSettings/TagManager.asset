@@ -43,3 +43,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Cat Paws
+    uniqueID: 2060390957
+    locked: 0
