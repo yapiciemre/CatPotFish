@@ -26,6 +26,4 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Bitiriþ menüsü ve high score ekle bence!
     }
-
-
 }
