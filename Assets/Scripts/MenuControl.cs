@@ -14,6 +14,15 @@ public class MenuControl : MonoBehaviour
 
     bool muteOpen = true;
 
+    void Start()
+    {
+        if (Preferences.AnyMuteOpen() == false)
+        {
+            Preferences.SelectedMuteOpen(1);
+        }
+        LookMuteOptions();
+    }
+
     public void GameStart()
     {
         SceneManager.LoadScene("MainLevel");
@@ -24,22 +33,33 @@ public class MenuControl : MonoBehaviour
         SceneManager.LoadScene("HighScore");
     }
 
-    public void OptionsScene()
-    {
-        SceneManager.LoadScene("Options");
-    }
-
     public void MuteButton()
     {
-        if (muteOpen)
+        if (Preferences.ReadMuteOpen() == 1)
         {
-            muteOpen = false;
+            Preferences.SelectedMuteOpen(0);
+            MusicControl.instance.PlayMusic(false);
             muteButton.image.sprite = muteIcon[0];
         }
         else
         {
-            muteOpen=true;
+            Preferences.SelectedMuteOpen(1);
+            MusicControl.instance.PlayMusic(true);
             muteButton.image.sprite = muteIcon[1];
+        }
+    }
+
+    void LookMuteOptions()
+    {
+        if (Preferences.ReadMuteOpen() == 1)
+        {
+            muteButton.image.sprite = muteIcon[1];
+            MusicControl.instance.PlayMusic(true);
+        }
+        else
+        {
+            muteButton.image.sprite = muteIcon[0];
+            MusicControl.instance.PlayMusic(false);
         }
     }
 }
