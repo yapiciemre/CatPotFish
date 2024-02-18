@@ -506,7 +506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1902113264, guid: eb33c7707ed7e7d4591e868aeaf6cc1e, type: 3}
+  m_Sprite: {fileID: 895832543, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 288208022, guid: af5c78d59638da6409e269cd1a2fafba, type: 3}
+  m_Sprite: {fileID: 684275383, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1205,8 +1205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muteIcon:
-  - {fileID: -700592804, guid: af5c78d59638da6409e269cd1a2fafba, type: 3}
-  - {fileID: 288208022, guid: af5c78d59638da6409e269cd1a2fafba, type: 3}
+  - {fileID: 341702133, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
+  - {fileID: 684275383, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
   muteButton: {fileID: 623921387}
 --- !u!4 &1058374637
 Transform:
@@ -1339,7 +1339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2011753044, guid: af5c78d59638da6409e269cd1a2fafba, type: 3}
+  m_Sprite: {fileID: -683951965, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1189396403, guid: af5c78d59638da6409e269cd1a2fafba, type: 3}
+  m_Sprite: {fileID: -1201731461, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
