@@ -194,7 +194,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2060390957
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 569890551, guid: c8eebbd74abf78c45aebd0047894fdd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -278,7 +278,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2060390957
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1212165672, guid: c8eebbd74abf78c45aebd0047894fdd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1004,7 +1004,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2060390957
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 1921340825, guid: c8eebbd74abf78c45aebd0047894fdd0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1082,14 +1082,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87058824, g: 0.88235295, b: 0.8039216, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e2bb009b1db64a749b0601d05ec8faf4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14b2d024624297644b3d7e6d3f2a7f81, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muteIcon:
-  - {fileID: 341702133, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
+  - {fileID: 21300000, guid: b8cb80944ae8cf849a4bf96f5f6eea3d, type: 3}
   - {fileID: 684275383, guid: bd1963f97a0846643a1c34035bfd80ac, type: 3}
   muteButton: {fileID: 623921387}
 --- !u!4 &1058374637

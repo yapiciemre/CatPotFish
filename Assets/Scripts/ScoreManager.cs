@@ -33,6 +33,7 @@ public class ScoreManager : MonoBehaviour
 
     public void AddCoins(int coinsToAdd)
     {
+        FindObjectOfType<FxControl>().FishSound();
         totalCoins += coinsToAdd;
         UpdateTotalCoinsText();
         PlayerPrefs.SetInt("total_coins", totalCoins); 

@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
     {
+        FindObjectOfType<FxControl>().GameOverSound();
         if (!gameEnded) // Ensure that the game ends only once
         {
             gameEnded = true;
