@@ -11,12 +11,22 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();    
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
     {
-        float x = Input.GetAxis("Horizontal") * Time.fixedDeltaTime * speed;
+        float x = 0f;
+
+#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBGL
+        // Bilgisayar veya web platformunda klavye kullanýmý
+        x = Input.GetAxis("Horizontal");
+#else
+        // Mobil platformlarda ivmeölçer kullanýmý
+        x = Input.acceleration.x;
+#endif
+
+        x *= Time.fixedDeltaTime * speed;
 
         Vector2 newPosition = rb.position + Vector2.right * x;
 
