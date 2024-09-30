@@ -13,9 +13,7 @@ A stray cat developed the ability to ride a skateboard to avoid pots falling on 
 </div>
 
 ## 🕹️ Gameplay Video
-You can watch a 1-minute gameplay video of our game here:
-https://www.youtube.com/watch?v=SdWd8h00do0
-
+You can watch a 1-minute gameplay video of our game here: [Gameplay Video](https://www.youtube.com/watch?v=SdWd8h00do0).
 
 ## ➕ What is the Purpose of the Project?
 We all know that a stray cat struggles hard to survive outside. As POFU Game Studio gaming company, we have developed a mobile application to raise awareness of this situation and make it fun at the same time.
